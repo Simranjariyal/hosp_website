@@ -1,6 +1,6 @@
 /* General styles */
 
-}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -286,7 +286,7 @@ h2{
     height: 100%;
     opacity: 0;
     position: absolute;
-    animation: anim 2s ease-in-out infinite;
+    animation: anim 2s infinite;
 }
 
 
