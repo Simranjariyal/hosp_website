@@ -6,6 +6,7 @@ body {
     font-family: Arial, sans-serif;
     padding: 0;
     width: 100%;
+    overflow-x: hidden;
    
 }
 
@@ -18,18 +19,15 @@ body {
 }
 header{
 background: linear-gradient(45deg, #6bff90, #7562ff, #d8e344, #118AB2);
-    background-size: 400% 400%;
-    animation: gradientAnimation 15s ease infinite;
+
+  
 /* Applying animation to the header */
    width:100%;
     text-align: center;
     padding: 20px;
-    animation: headerAnimation 5s infinite;
+    animation: headerAnimation 5s ease-in infinite;
 
-    text-align: center;
-    padding: 20px;
-    background:http://127.0.0.1:3000/hospital_website/ps.html#-color: #f0f0f0;
-   
+
 }
 
 #navbar {
@@ -58,8 +56,10 @@ a {
 }
 
 input{
-    width: 150px;
+    width: 100px;
     align-self: auto;
+    justify-content: space-between;
+
   
 }
 
@@ -107,6 +107,7 @@ h2{
     justify-content: space-around;
     background-color: #e0e0e0;
     padding: 20px 0;
+    
 }
 
 .section {
@@ -271,7 +272,7 @@ h2{
 }
 #images {
     height: 300px;
-    width: 80%;
+    width: 60%;
     border: 2px black solid;
     display: flex;
     justify-content: center;
